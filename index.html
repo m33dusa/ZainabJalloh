@@ -1649,6 +1649,9 @@ canvas{
   display:inline-block;
 }
 
+mark{
+  background-color:white;
+}
 </style>
 <body>
 
@@ -1692,44 +1695,64 @@ canvas{
 
 <!-- Container (About Section) -->
 <div style="z-index:1; position:relative" class="top">
+
 <div class="content container color_padding-64" id="about">
-  <h3 style="margin-top:5em" class="color_center">ABOUT ME
-</h3>
-  <p class="color_center"><em>I develope dynamic websites</em></p>
-  <p>My name is Zainab Alpha Jalloh. I am a Master’s student in <i>Computer
-    Information Systems</i> with a declared concentration in <i>Security</i>,
-    front-end web developer and Android application developer from
-    Boston, Massachusetts. I create dynamic, user-friendly and interactive
-    websites that help businesses look fantastic online.</p>
   <div style="position:relative; display:inline"class="row">
     <div class="col m6 color_center color_padding-large">
-      <p><b>Zainab Alpha Jalloh "ZAJ"</b></p><br>
       <img src="https://scontent-frx5-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/26372818_145814436117972_3413439985938857984_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_cat=100&_nc_ohc=p0l4STVqiH0AX-08AG0&oh=c40d8de138f2797cca4fe46bd34f55bd&oe=5EFF994D"
       class="round image txt-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      <p><b>Zainab Alpha Jalloh "ZAJ"</b></p>
     </div>
 
-    <!-- Hide this text on small devices -->
+  <h3 class="color_start">ABOUT ME</h3>
+    <p>My name is Zainab Alpha Jalloh. I am a Master’s student at Boston University
+    studying <i>Computer Information Systems</i> with a declared concentration in
+    <i>Security</i>. I am a Front-End Web Developer, an Android Developer and an SQL developer.</p>
+  </div>
+
+  <div class="col m6 hide-small color_padding-large">
+  <h3 class="color_start"> WHAT I DO</h3>
+  <p class="color_start"> <mark>Front-End Developer</mark></p>
+      <p>As a front-end web developer, I create dynamic user-friendly websites using:
+          <ul style="margin-left:5%">
+            <li>HTML (HTML5 and XHTML)&semi;</li>
+            <li>CSS3&semi; and</li>
+            <li>Javascript.</li>
+          </ul>
+    <p class="color_start"><mark>Android Application Developer<mark></p>
+    <p>Design and build software applications for the Android platform following
+      the AGILE SDLC model, including unit testing and debugging.</p>
+      <p class="color_start"><mark>SQL Developer<mark></p>
+      <p>Design, implement and maintain scalable Postgress and oracle databases using SQL and P/SQL for Triggers,
+        Functions, Stored Procedures, Constraints and Flow Control.</p>
+      </div>
     <div class="col m6 hide-small color_padding-large">
-      <p>I wrote my first line of code about a year ago — in, April 2018— on a whim, after hearing about
-        (i) the growing demand for tech jobs, (ii) the prolific automation of none specialized jobs and (iii) the growing
-        threat of cyber crimes on the, “Stuff You Should Know" podcast.</p>
-
-<p>It was a simple “Hello World” print statement written with Python on CodeAcademy.
-I was not impressed by the aesthetic output of my code,
-the simplicity of it and I did not understand how that simple
-command output related in anyway to the operating systems,
-software and applications I use everyday.
-But, I was determined to find out how it all fits together so I started googling and
-found resources that helped expand my understanding, eventually, I found myself
-completely immersed in and thoroughly frustrated and simultaneously enjoying writing and debugging code.</p>
-
-<p>It suffices to say, I found my calling and wasted
-no time, I decided to change careers (up to that point,
-I had been a paralegal and planned to go to law school),
-I enrolled in and utilized several learning resources including,
-FreeCodeCamp, Udacity, Lynda and Coursera, before I
-applied for graduate school to get my Master in the field. </p>
-    </div>
+    <h3 class="color_start"> WHAT I KNOW</h3>
+    <ul style="margin-left:5%">
+      <li>HTML</li>
+      <li>CSS3</li>
+      <li>JAVASCRIPT</li>
+      <li>XML</li>
+      <li>SQL</li>
+      <li>P/SQL</li>
+      <li>ANDROID SDK</li>
+      <li>QUERY OPTIMIZATION</li>
+      <li>DATA MODELING</li>
+        <ul>
+          <li>Unified Modeling Language &quot;UML&quot;</li>
+          <li>Entity Relationship Model &quot;ERM&quot;</li>
+          <li>Entity Relationship Diagrams &quot;ERDs&quot;</li>
+        </ul>
+      <li>COMPUTER NETWORKS &amp; PROTOCOLS</li>
+      <ul>
+        <li>TCP/IP Network Layering</li>
+        <li>OSI Netwok Modeling</li>
+        <li>Application Architectures</li>
+        <li>LAN &amp; WLAN Technologies</li>
+      </ul>
+    <li>SYSTEMS ANALYSIS &amp; DESIGN</li>
+  </div>
+    <!-- Hide this text on small devices -->
   </div>
   <hr>
   <p class="color_large color_center color_padding-16">Languages & Skills:</p>
@@ -1758,7 +1781,6 @@ applied for graduate school to get my Master in the field. </p>
   <div class="color_light-grey">
     <div class="container color_padding-small Android_color color_center" style="width:30%">30%</div>
   </div>
-</div>
 <hr>
 <div class="row color_center color_padding-16">
   <div class="trd section">
@@ -1837,7 +1859,6 @@ id="portfolio">
       style="width:100%" class="txt-hover-opacity"
       alt="Placeholder 1" id="profile-link">GitHub Repositories</a>
     </div>
-
     <div class="col m3">
       <a href="" target="_blank"
       style="width:100%" class="txt-hover-opacity"
@@ -1845,8 +1866,8 @@ id="portfolio">
     </div>
 </frameset>
   </div>
-  <hr>
 
+  <hr>
 
 <!-- Image Portfolio -->
 <div class="imgThree display-container">
@@ -1857,8 +1878,7 @@ id="portfolio">
 
 <!-- Container (Contact Section) -->
 <div class="content container color_padding-64" id="contact">
-  <h3 class="color_center">HIRE ME FOR A PROJECT!</h3>
-  <p class="color_center"><em>And let's make your website pop!</em></p>
+  <h3 class="color_center">LET'S WORK TOGETHER</h3>
 
   <div class="row color_padding-32 section">
     <div class="col m4 container">
@@ -1868,8 +1888,9 @@ id="portfolio">
 
     <div class="col m8 color_panel">
       <div class="color_large margin-bottom">
-        <i class="fa fa-map-marker fa-fw hover-text-black xLarge margin-right"></i> Boston, US<br>
-        <i class="fa fa-phone fa-fw hover-text-black xLarge margin-right"></i> Website: https://github.com/m33dusa<br>
+        <i class="fa fa-map-marker fa-fw hover-text-black xLarge margin-right"></i> Boston, MA US<br>
+        <i class="fa fa-phone fa-fw hover-text-black xLarge margin-right"></i>
+        <a href="https://github.com/m33dusa"> GitHub</a><br>
         <i class="fa fa-envelope fa-fw hover-text-black xLarge margin-right"></i>
           <a href="mailto:zaina.jalloh@gmail.com"> Email Me</a>
                  <br></div>
@@ -1890,7 +1911,6 @@ id="portfolio">
       </form>
     </div>
   </div>
-</div>
 </div>
 
 <!-- Footer -->
@@ -1913,10 +1933,11 @@ id="portfolio">
   <a href="https://github.com/m33dusa" target="_blank">
     <img class="GIT" src="https://cdn3.iconfinder.com/data/icons/social-media-2068/64/_github-512.png"></img></a>
   </div>
-  <p>&#169 Copyright 2019 This project was completed for academic purposes by:
+  <p>&copy Copyright 2020 This project was completed for academic purposes by:
     <a href="https://www.freecodecamp.org/zalpha" title="FreeCodeCamp" target="_blank" class="hover-text-green">Zainab Jalloh</a></p>
 </div>
 </footer>
+
 <script>
 // Modal Image Gallery
 function onClick(element) {
@@ -2100,6 +2121,5 @@ frame();
 initParticles(config.particleNumber);
 
 </script>
-
 </body>
 </html>
